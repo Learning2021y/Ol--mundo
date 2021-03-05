@@ -8,22 +8,36 @@ body {
         text-indent: 30px;
     }
 
-    h2, h1 {
-        text-indent: 30px;
-    }
-
-
 header#cabecalho {
 
     border-bottom: 1px #606060 solid;
     height: 150px;
+    background: url("_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 }
 
 header#cabecalho img#icone {
 
     position: absolute;
-    left: 900px;
-    top: 40px;
+    left: 1030px;
+    top: 70px;
+}
+
+header#cabecalho h1{
+
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #606060;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    color: grey;
+    padding: 0px;
+    margin-top: 0px;
 }
 
 div#interface{
