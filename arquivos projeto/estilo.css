@@ -15,7 +15,8 @@ body {
 
 header#cabecalho {
 
-    position: absolute;
+    border-bottom: 1px #606060 solid;
+    height: 150px;
 }
 
 header#cabecalho img#icone {
