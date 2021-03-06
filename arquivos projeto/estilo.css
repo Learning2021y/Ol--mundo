@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@font-face{
+
+    font-family: 'FonteLogo';
+    src: url("_fonts/bubblegum-sans-regular.otf")
+}
 body {
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
@@ -24,7 +29,7 @@ header#cabecalho img#icone {
 
 header#cabecalho h1{
 
-    font-family: Arial, sans-serif;
+    font-family:'FonteLogo', sans-serif;
     font-size: 30px;
     color: #606060;
     padding: 0px;
