@@ -47,7 +47,7 @@ header#cabecalho h2{
 
 div#interface{
 
-    width: 1100px;
+    width: 1300px;
     background-color: rgb(187, 187, 187);
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .7);
@@ -132,4 +132,55 @@ nav#menu a{
 nav#menu a:hover{
 
     color: white;
+}
+
+aside#lateral{
+
+    display: block;
+	width: 400px;
+	position: absolute;
+	top: 200px;
+	left:900px;
+}
+
+
+section#corpo{ 
+    display: block;
+    width: 800px;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+
+footer#rodape {
+
+    clear: both;
+    border-top: 1px solid #606060;
+  } 
+
+  footer#rodape p {
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    right: 100px;
+  }
+
+table#tabelaspec{
+
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    text-align: center;
+}
+
+table#tabelaspec td{
+
+    border: 1px solid #606060;
+    border-spacing: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td{
+
+    padding: 20px;
 }
